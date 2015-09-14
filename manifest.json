@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
     "name": "Machine Learning is Magic",
-    "description": "This Chrome extension replaces 'Machine Learning' with 'Magic'. The usage is surprisingly similar.",
+    "description": "This Chrome extension replaces 'Machine Learning' with 'Magic'. The usage is surprisingly similar.\n It also makes a few more changes along this theme.",
     "version": "0.0.0.2",
     "content_scripts": [
         {
