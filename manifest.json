@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+    "name": "Machine Learning is Magic",
+    "description": "The usage is surprisingly similar.",
+    "version": "0.0.0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
